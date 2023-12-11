@@ -137,3 +137,38 @@ input[type=checkbox] {
   margin-top: 2px;
   margin-right: 5px;
 }
+
+@media screen and (max-width: 600px) {
+  .heading{
+    font-size: 32px;
+    width: 200px;
+    position: relative;
+    right: 70%;
+  }
+
+  .input{
+    width: 250px;
+    position: relative;
+    right: 35%;
+    margin-top: 20px;
+  }
+
+  .button{
+    width: 65px;
+    position: relative;
+    right: 35%;
+    margin-top: 20px;
+  }
+
+  .relative{
+    width: 335px;
+    position: relative;
+    right: 25%;
+  }
+
+  body{
+    background: url(https://i.pinimg.com/736x/57/ac/2b/57ac2b5b9f8aa7f1ce545951cdb6b028.jpg) no-repeat; 
+    background-position: right;
+    height: 100vh;
+  }
+}
